@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Barselona</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="glavni-zaglavlje">
+        <table class="zaglavlje-tabela">
+            <tr>
+                <td colspan="4" class="naslov-zaglavlja">
+                    <h1><i>Dobrodošli u <b>Kontakt Stranicu Barselone</b></i></h1>
+                </td>
+            </tr>
+        </table>
+        <table class="navigacijska-tabela">
+            <tr>
+                <td class="stavka-navigacije"><a href="index.html" class="link-navigacije"><b>Početna</b></a></td>
+                <td class="stavka-navigacije"><a href="historija.html" class="link-navigacije"><b>Historija</b></a></td>
+                <td class="stavka-navigacije"><a href="galerija.html" class="link-navigacije aktivni-link"><b>Galerija</b></a></td>
+                <td class="stavka-navigacije"><a href="kontakt.html" class="link-navigacije"><b>Kontakt</b></a></td>
+            </tr>
+        </table>
+    </header>
+
+    <main class="glavni-sadrzaj">
+        <table class="kontakt-tabela" style="width: 100%; background-color: #EBEAFF; padding: 50px 0; text-align: center;">
+            <tr>
+                <td class="sekcija-kontakt" style="padding: 20px;">
+                    <h2 style="margin-bottom: 20px;">Kontakt Forma</h2>
+                    <form method="POST" action="mailto:barcelona@putovanja.com" style="display: flex; flex-direction: column; align-items: center; gap: 15px;">
+                        <label for="korisnik" style="width: 300px; text-align: left;">Username:</label>
+                        <input type="text" id="korisnik" name="korisnik" required style="width: 300px; padding: 8px;">
+    
+                        <label for="lozinka" style="width: 300px; text-align: left;">Password:</label>
+                        <input type="password" id="lozinka" name="lozinka" required style="width: 300px; padding: 8px;">
+    
+                        <label for="komentar" style="width: 300px; text-align: left;">Poruka:</label>
+                        <textarea id="komentar" name="komentar" rows="5" required style="width: 300px; padding: 8px;"></textarea>
+    
+                        <div style="width: 300px; text-align: left;">
+                            <p>Omiljene atrakcije:</p>
+                            <input type="checkbox" name="Sagrada" value="yes"> Sagrada Família<br>
+                            <input type="checkbox" name="ParkGuell" value="yes"> Park Güell<br>
+                            <input type="checkbox" name="Barceloneta" value="yes"> Barceloneta<br>
+                        </div>
+    
+                        <div style="width: 300px; text-align: left;">
+                            <p>Da li ste posjetili Barselonu?</p>
+                            <input type="radio" name="posjeta" value="yes" checked> Da
+                            <input type="radio" name="posjeta" value="no"> Ne
+                        </div>
+    
+                        <label for="godina" style="width: 300px; text-align: left;">Godina posjete:</label>
+                        <select id="godina" name="godina" required style="width: 300px; padding: 8px;">
+                            <option value="2024">2024</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                        </select>
+    
+                        <div style="display: flex; justify-content: space-between; gap: 10px; margin-top: 15px;">
+                            <button type="submit" style="padding: 10px 20px; background-color: #7D3C98; color: white; border: none; cursor: pointer;">Pošalji</button>
+                            <button type="reset" style="padding: 10px 20px; background-color: #5C2E73; color: white; border: none; cursor: pointer;">Poništi</button>
+                        </div>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </main>
+    
+
+    <footer id="glavni-podnozje">
+        <table class="podnozje-tabela">
+            <tr>
+                <td class="tekst-podnozja" style="color: white;">
+                    <span><i><b>Barselona Vodič</b></i></span>
+                </td>
+            </tr>
+        </table>
+    </footer>
+
+</body>
+</html>

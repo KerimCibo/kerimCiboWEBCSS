@@ -1,0 +1,221 @@
+body {
+    background-color: #FBEFEF;
+    color: #333333;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+#glavni-zaglavlje {
+    background-color: #7D3C98;
+    color: white;
+    padding: 2% 0;
+    width: 100%;
+}
+
+.zaglavlje-tabela {
+    width: 100%;
+    border-spacing: 0;
+    text-align: center;
+}
+
+.naslov-zaglavlja h1 {
+    margin: 0;
+    width: 90%;
+}
+
+.navigacijska-tabela .stavka-navigacije {
+    padding: 1% 2%;
+}
+
+.link-navigacije {
+    text-decoration: none;
+    color: #FAD7A0;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.link-navigacijePocetna {
+    text-decoration: none;
+    color: #7D3C98;
+    font-weight: bold;
+}
+
+.sadrzaj-tabela {
+    width: 100%;
+    background-color: #E8DAEF;
+    padding: 5% 2%;
+    text-align: center;
+}
+
+.tabela-atrakcija {
+    background-color: #F6DDCC;
+    padding: 5% 2%;
+    width: 100%;
+    text-align: center;
+}
+
+.sekcija-dobrodoslice {
+    text-align: center;
+    width: 90%;
+}
+
+.tabela-slike {
+    width: 100%;
+    margin: 0 auto;
+    border-spacing: 5%;
+}
+
+.kolona-slike {
+    text-align: center;
+    vertical-align: top;
+    width: 30%;
+}
+
+.slika-atrakcije {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.link-saznaj-vise, .link-kontaktirajte-nas {
+    text-decoration: none;
+    color: #7D3C98;
+    font-weight: bold;
+    width: auto;
+}
+
+#glavni-podnozje {
+    background-color: #7D3C98;
+    color: white;
+    padding: 2% 0;
+    text-align: center;
+    width: 100%;
+}
+
+.podnozje-tabela {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+
+.tekst-podnozja span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.tabela-kontakt {
+    width: 100%;
+    background-color: #E8DAEF;
+    padding: 5% 2%;
+    text-align: center;
+}
+
+.sekcija-kontakt {
+    text-align: center;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.sekcija-kontakt h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.sekcija-kontakt h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.link-kontaktirajte-nas {
+    text-decoration: none;
+    color: #7D3C98;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.historija-tabela {
+    width: 100%;
+    background-color: #EBEAFF;
+    padding: 5% 2%;
+    text-align: center;
+}
+
+.sekcija-historija {
+    text-align: center;
+    width: 90%;
+}
+
+.kljucne-godine-tabela {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.kljucne-godine-tabela th {
+    background-color: #7D3C98;
+    color: white;
+    padding: 2%;
+    text-align: center;
+}
+
+.kljucne-godine-tabela td {
+    padding: 2%;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.sekcija-galerija {
+    text-align: center;
+    padding: 2%;
+    width: 90%;
+}
+
+.video-galerija {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    border: none;
+}
+
+.forma-kontakt {
+    margin: 0 auto;
+    border-spacing: 2%;
+    text-align: left;
+    width: 90%;
+}
+
+.forma-kontakt input[type="text"],
+.forma-kontakt input[type="password"],
+.forma-kontakt textarea,
+.forma-kontakt select {
+    width: 80%;
+    padding: 2%;
+    font-size: 14px;
+}
+
+.forma-kontakt button {
+    padding: 2%;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    background-color: #7D3C98;
+    color: white;
+    width: 40%;
+}
+
+.forma-kontakt button:hover {
+    background-color: #5C2E73;
+}
+
+.forma-kontakt input[type="checkbox"],
+.forma-kontakt input[type="radio"] {
+    margin-right: 5%;
+}
